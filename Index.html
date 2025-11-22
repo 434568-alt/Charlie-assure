@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analyseur Complet de Relevés d'Information Auto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Analyseur de Relevés d'Information Auto</h1>
+
+        <div class="card">
+            <h2>Date du Jour</h2>
+            <div class="input-group">
+                <label for="currentDate">Date du Jour :</label>
+                <input type="date" id="currentDate" value="">
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Historique des Relevés d'Information (RI)</h2>
+            <p>Saisissez tous les relevés dans l'ordre chronologique (du plus ancien au plus récent). **6 lignes de saisie sont chargées par défaut.**</p>
+            <div id="riList">
+                </div>
+            <button id="addRiBtn" class="orange-button">Ajouter un Relevé d'Information</button>
+        </div>
+
+        <div class="card result-card">
+            <h2>Synthèse et Résultat Final</h2>
+            <div class="input-group">
+                <label>Mois de Reprise (Règle des 24 mois) :</label>
+                <span id="monthsToResume">0 mois</span>
+            </div>
+            <div class="input-group">
+                <label>Bonus/Malus Final Précis :</label>
+                <span id="finalBonus">N/A</span>
+            </div>
+            <h3>Récapitulatif de la Sinistralité Totale :</h3>
+            <ul id="sinistresSummary">
+                </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
