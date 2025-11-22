@@ -59,7 +59,7 @@ Les contributions sont toujours les bienvenues ! Si vous avez des suggestions d'
 
 ## Auteur
 
-Développé par [**VOTRE NOM OU PSEUDO ICI**]
+Développé par [**CHARLIE**]
 
 ---
 
